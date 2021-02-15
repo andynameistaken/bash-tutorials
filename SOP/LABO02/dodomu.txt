@@ -1,0 +1,5 @@
+Zadanie A. Poczytaj i potestuj edytory NANO oraz VIM
+http://pl.linux.wikia.com/wiki/Nano
+http://pl.linux.wikia.com/wiki/Vim
+
+Zadanie B. Wyœwietl „banner” ze swoim imieniem

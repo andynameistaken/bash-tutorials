@@ -1,0 +1,30 @@
+#!/bin/bash
+echo "Skrypt uruchomiono z parametrami: $@"
+echo "liczba argumentów $#"
+echo '$1: ' "$1"
+echo '$2: ' "$2"
+echo '$3: ' "$3"
+
+echo 'shift 2' 
+shift 2
+
+echo '$1: ' "$1"
+echo '$2: ' "$2"
+echo '$3: ' "$3"
+
+echo "$0"
+echo '$1=' "$1"
+echo -n 'test 3 -gt 4 && echo true || echo false:  '
+test 3 -lt 4 && echo true || echo false
+echo -n  "$?"
+echo  '=$?'
+echo 'false'
+false
+echo -n  "$?"
+echo  '=$?'
+
+
+
+echo -e "\n\n END"
+
+

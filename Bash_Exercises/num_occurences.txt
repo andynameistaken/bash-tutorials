@@ -1,0 +1,4 @@
+0 occurences:         4
+num / 3 occurences: 6
+num / 5 occurences: 3
+num / 7 occurences: 3

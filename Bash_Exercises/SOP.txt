@@ -1,0 +1,52 @@
+przekierowanie strumienia błędów
+rm plik_ktorego_nie.txt 2> blad.txt
+
+find . -name "*.txt" -exec rm "{}" \;
+
+#arrays
+
+deklaracja
+area2=( zero one two three four )
+
+odwolanie sie do el
+echo ${area2[0]}
+
+długość zmiennej
+${#ZMIENNA}
+
+Ilość elementów tablicy
+${#tab[@]} 
+ 
+Artymetyka
+ $[1 + 2]
+$(())
+ 
+ Czytanie stdin
+ read a b c
+ 
+ $0 to nazwa, za której pomocą wywołano skrypt,
+ $# to liczba argumentów skryptu,
+ $@ to wszystkie argumenty skryptu.
+ 
+ warunek if
+if (( a > b )); then
+     ...
+elif warunek2; then
+  instrukcje2
+	...
+else 
+  instrukcje_else
+fi
+ 
+ 
+for VARIABLE in 1 2 3 4 5 .. N
+ do
+ 	command1
+ 	command2
+ 	commandN
+ done
+ 
+ wc = liczba linii słów  znaków
+ 	wc -l ilość linii
+	wc -c ilość znaków
+

@@ -1,0 +1,6 @@
+Checking the network cables, modem, and router
+Reconnecting to Wi-Fi
+Tip 1036 Printable Monobook Previous Next created 2005 ·
+
+Next, you can upload your own colorscheme into the colors folder you created. Finally, just follow the steps from earlier to set it as your default colorscheme. TIP:.
+
